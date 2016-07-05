@@ -9,8 +9,17 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\README.gml</script>
+    <scripts name="UT core scripts">
+      <script>scripts\README.gml</script>
+      <script>scripts\UT_test_output.gml</script>
+    </scripts>
   </scripts>
+  <objects name="objects">
+    <object>objects\UT_TEST</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\UT_TESTROOM</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
