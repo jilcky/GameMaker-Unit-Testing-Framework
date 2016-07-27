@@ -54,6 +54,7 @@ show_debug_message("   "+string(UT_succeeded_tests)+"/"+string(UT_completed_test
 show_debug_message("----------------------------------------------------------------");
 
 // done, no need for for instances of this object to take up space any longer
+ds_map_destroy(UT_tests);
 instance_destroy();
 </string>
           </argument>
