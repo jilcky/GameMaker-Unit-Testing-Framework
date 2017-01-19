@@ -3,25 +3,11 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions>
-    <extension index="0">extensions\Unit Testing Framework</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <scripts name="UT core scripts">
-      <script>scripts\README.gml</script>
-      <script>scripts\UT_test_output.gml</script>
-    </scripts>
-  </scripts>
-  <objects name="objects">
-    <object>objects\UT_TEST</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\UT_TESTROOM</room>
-  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
